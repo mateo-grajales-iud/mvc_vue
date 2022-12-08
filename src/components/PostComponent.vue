@@ -34,7 +34,6 @@
             <label class="form-label">Descripción</label>
             <input
               type="text"
-              required
               v-model="descriptionCrear"
               class="form-control"
             />
