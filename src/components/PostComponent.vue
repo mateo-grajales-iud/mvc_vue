@@ -90,7 +90,7 @@
               class="form-control"
             />
             <label class="form-label">Contenido</label>
-            <textarea class="form-control" rows=5 v-model="contenidoEditar"> </textarea>
+            <textarea class="form-control" rows=5 v-model="contenidoEditar" required> </textarea>
             <label class="form-label">Estado</label>
             <select required v-model="estadoEditar" class="form-control">
               <option value="No Publicado">No publicado</option>
